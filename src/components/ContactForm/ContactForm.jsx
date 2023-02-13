@@ -21,7 +21,7 @@ const newContact = {
         }
 
         onSubmit(newContact);
-        onSubmit({ name: '', number: '' })
+        setForm({ name: '', number: '' })
     };
 
 
